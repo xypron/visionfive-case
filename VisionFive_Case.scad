@@ -148,13 +148,19 @@ module top() {
                 cube([17, 52, 4], center = true);
 
 
-            translate([65.3, 0, 13.5])
+            translate([86.2, 0, 13.5])
                 cube([1.5, 4, 27], center = true);
 
-            translate([53.6, 0, 13.5])
+            translate([65.2, 0, 13.5])
                 cube([1.5, 4, 27], center = true);
 
-            translate([33.4, 0, 13.5])
+            translate([53.8, 0, 13.5])
+                cube([1.5, 4, 27], center = true);
+
+            translate([33.3, 0, 13.5])
+                cube([1.5, 4, 27], center = true);
+
+            translate([13.4, 0, 13.5])
                 cube([1.5, 4, 27], center = true);
 
             };
@@ -237,7 +243,7 @@ module top() {
 
 
         translate([100, 3, 22])
-            cube([40, 7, 3], center = true);
+            cube([10, 7, 3], center = true);
     }
 }
 
