@@ -151,13 +151,13 @@ module top() {
             translate([86.2, 0, 13.5])
                 cube([1.5, 4, 27], center = true);
 
-            translate([65.3, 0, 13.5])
+            translate([65.2, 0, 13.5])
                 cube([1.5, 4, 27], center = true);
 
-            translate([53.6, 0, 13.5])
+            translate([53.8, 0, 13.5])
                 cube([1.5, 4, 27], center = true);
 
-            translate([33.4, 0, 13.5])
+            translate([33.3, 0, 13.5])
                 cube([1.5, 4, 27], center = true);
 
             translate([13.4, 0, 13.5])
