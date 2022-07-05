@@ -157,6 +157,9 @@ module top() {
             translate([33.4, 0, 13.5])
                 cube([1.5, 4, 27], center = true);
 
+            translate([13.4, 0, 13.5])
+                cube([1.5, 4, 27], center = true);
+
             };
 
 
