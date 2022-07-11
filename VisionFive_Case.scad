@@ -315,7 +315,9 @@ module bottom() {
 }
 
 rotate([180, 0, 0]) {
-    //board();
-    color(c= [.5,0,1])
-        top();
+    board();
+    color([.3, .3, .3])
+        bottom();
+    color([1, .5, 0])
+    top();
 }
